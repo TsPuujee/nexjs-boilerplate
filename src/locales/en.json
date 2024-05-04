@@ -1,0 +1,35 @@
+{
+  "RootLayout": {
+    "news_link": "About",
+    "rider_link": "Rider",
+    "rest_link": "Restaurant",
+    "family_link": "Family",
+    "api_link": "MAPS API"
+  },
+  "BaseTemplate": {
+    "made_with": "Made with"
+  },
+  "Index": {
+    "meta_title": "Toktok",
+    "meta_description": "Every tap is delicious.",
+    "highlight_your_benefits": "Highlight your benefits"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": ""
+  },
+  "MainLayout": {
+    "meta_title": "Main",
+    "meta_description": "",
+    "user_profile_link": "Profile",
+    "main_link": "Main",
+    "sign_out": "Sign out"
+  },
+  "UserProfile": {
+    "meta_title": "Хэрэглэгийн профайл",
+    "meta_description": ""
+  },
+  "WellcomeComponent": {
+    "hello_message": "Wellcome to, "
+  }
+}
