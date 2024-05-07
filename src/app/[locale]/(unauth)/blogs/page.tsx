@@ -1,7 +1,7 @@
 import CardList from "@/components/Index/cardList";
-import SectionTitle from '@/components/Index/sectionTitle'
+import SectionTitle from "@/components/Index/sectionTitle";
 
-export default function News() {
+export default function Blogs() {
   return (
     <>
       <SectionTitle

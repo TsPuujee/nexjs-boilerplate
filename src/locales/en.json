@@ -1,10 +1,9 @@
 {
   "RootLayout": {
-    "news_link": "About",
-    "rider_link": "Rider",
-    "rest_link": "Restaurant",
-    "family_link": "Family",
-    "api_link": "MAPS API"
+    "blogs_link": "BLOGS",
+    "online_order_link": "ONLINE ORDER",
+    "about_link": "ABOUT US",
+    "work_with_us_link": "WORK WITH US"
   },
   "BaseTemplate": {
     "made_with": "Made with"

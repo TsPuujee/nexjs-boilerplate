@@ -2,10 +2,10 @@ import React from "react";
 import Container from "./container";
 
 const SectionTitle = (props: {
-    pretitle?: string,
-    align?: string,
-    title?: string,
-    children?: React.ReactNode
+  pretitle?: string;
+  align?: string;
+  title?: string;
+  children?: React.ReactNode;
 }) => {
   return (
     <Container
@@ -31,6 +31,6 @@ const SectionTitle = (props: {
       )}
     </Container>
   );
-}
+};
 
 export default SectionTitle;

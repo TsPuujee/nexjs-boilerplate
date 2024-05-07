@@ -1,8 +1,8 @@
 import React from "react";
 
 const Container = (props: {
-    className?: string,
-    children?: React.ReactNode
+  className?: string;
+  children?: React.ReactNode;
 }) => {
   return (
     <div
@@ -12,6 +12,6 @@ const Container = (props: {
       {props.children}
     </div>
   );
-}
+};
 
 export default Container;

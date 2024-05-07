@@ -1,13 +1,13 @@
-import { withSentryConfig } from '@sentry/nextjs';
+import { withSentryConfig } from "@sentry/nextjs";
 /* eslint-disable import/no-extraneous-dependencies, import/extensions */
-import './src/libs/Env.mjs';
-import withBundleAnalyzer from '@next/bundle-analyzer';
-import withNextIntl from 'next-intl/plugin';
+import "./src/libs/Env.mjs";
+import withBundleAnalyzer from "@next/bundle-analyzer";
+import withNextIntl from "next-intl/plugin";
 
-const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+const withNextIntlConfig = withNextIntl("./src/libs/i18n.ts");
 
 const bundleAnalyzer = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
+  enabled: process.env.ANALYZE === "true",
 });
 
 /** @type {import('next').NextConfig} */
@@ -15,33 +15,33 @@ export default withSentryConfig(
   bundleAnalyzer(
     withNextIntlConfig({
       eslint: {
-        dirs: ['.'],
+        dirs: ["."],
       },
       poweredByHeader: false,
       reactStrictMode: true,
       experimental: {
-        serverComponentsExternalPackages: ['pino'],
+        serverComponentsExternalPackages: ["pino"],
       },
       webpack: (config) => {
         config.externals.push({
-          bufferutil: 'bufferutil',
-          'utf-8-validate': 'utf-8-validate',
+          bufferutil: "bufferutil",
+          "utf-8-validate": "utf-8-validate",
         });
         return config;
       },
-    }),
+    })
   ),
   {
     silent: true,
-    org: 'nextjs-boilerplate-org',
-    project: 'nextjs-boilerplate',
+    org: "nextjs-boilerplate-org",
+    project: "nextjs-boilerplate",
   },
   {
     widenClientFileUpload: true,
     transpileClientSDK: true,
-    tunnelRoute: '/monitoring',
+    tunnelRoute: "/monitoring",
     hideSourceMaps: true,
     disableLogger: true,
     automaticVercelMonitors: true,
-  },
+  }
 );
