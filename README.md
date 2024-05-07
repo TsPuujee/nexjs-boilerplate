@@ -3,7 +3,7 @@ This is nextsjs boilerplate
 - NextJs
 - App router
 - Tailwind
-- Auth(clerk)
+- Auth()
 - Locale
 - Spotlight
 

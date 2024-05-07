@@ -1,4 +1,3 @@
-import { SignUp } from '@clerk/nextjs';
 import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -13,6 +12,10 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const SignUpPage = () => <SignUp />;
-
-export default SignUpPage;
+export default function SignUpPage () {
+  return (
+    <div className="[&_p]:my-6">
+      SignUp page
+    </div>
+  );
+}
