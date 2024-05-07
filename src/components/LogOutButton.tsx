@@ -1,5 +1,4 @@
 'use client';
-import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const LogOutButton = () => {
