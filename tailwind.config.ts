@@ -21,6 +21,7 @@ const config: Config = {
     extend: {
       colors: {
         mainColor: "#A63325",
+        lineBorder: "#E6E6E6",
       },
       animation: {
         flicker: "flicker 3s linear infinite",

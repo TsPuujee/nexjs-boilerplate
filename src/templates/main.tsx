@@ -5,7 +5,7 @@ const BaseTemplate = (props: {
 }) => {
   return (
     <>
-      <header> {props.header}</header>
+      <header>{props.header}</header>
       <main className="md:mt-[113px]">{props.children}</main>
       <footer className="flex justify-center">{props?.footer}</footer>
     </>

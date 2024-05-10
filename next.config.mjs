@@ -29,6 +29,9 @@ export default withSentryConfig(
         });
         return config;
       },
+      images: {
+        domains: [], // Add this line to include the domains configuration
+      },
     })
   ),
   {

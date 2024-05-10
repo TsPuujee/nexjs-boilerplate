@@ -9,7 +9,9 @@
     "made_with": "Made with"
   },
   "Index": {
-    "meta_title": "Toktok",
+    "meta_title": "",
+    "categoryTitle": "online order",
+    "categoryDescription": "Online butchers Nomad Butchers source the finest beef and lamb breeds from the California. Our meat is bred to perfection to yield more marbling and fuller flavour. Our mission as an online butcher is to provide better meat sourced sustainably in the USA.",
     "meta_description": "Every tap is delicious.",
     "highlight_your_benefits": "Highlight your benefits"
   },
@@ -25,8 +27,8 @@
     "sign_out": "Sign out"
   },
   "UserProfile": {
-    "meta_title": "Хэрэглэгийн профайл",
-    "meta_description": ""
+    "meta_title": "User Profile",
+    "meta_description": "User Profile Description"
   },
   "WellcomeComponent": {
     "hello_message": "Wellcome to, "
